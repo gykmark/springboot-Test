@@ -1,0 +1,10 @@
+#激活使用配置文件
+#使用的dev
+#spring:
+#  profiles:
+#    active: dev
+
+#使用test
+spring:
+  profiles:
+    active: test
