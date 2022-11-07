@@ -1,0 +1,12 @@
+#配置端口号及访问路径
+server:
+  port: 8082
+  servlet:
+    context-path: /myboot
+
+#自定义key=value
+school.name: gyk
+school.website: hncj
+school.address: 河南
+
+site: www.baidu.com
