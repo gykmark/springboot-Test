@@ -1,0 +1,10 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /myboot
+    encoding:
+      enabled: true
+      #指定编码方式
+      charset: UTF-8
+      #强制使用自定义编码方式
+      force: true
