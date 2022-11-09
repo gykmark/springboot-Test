@@ -1,0 +1,5 @@
+server:
+  servlet:
+    encoding:
+      #关闭系统中配置好的过滤器,使用自己配置的过滤器
+      enabled: false
