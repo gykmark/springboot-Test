@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.hncj.dao.StudentDao">
+    <select id="selectStudent" resultType="cn.edu.hncj.model.Student">
+         select id,name,age from student where id = #{stuId}
+     </select>
+</mapper>
