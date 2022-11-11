@@ -27,7 +27,7 @@ public class StudentServiceImpl implements StudentService {
         System.out.println("执行sql语句");
 
         //a Runtime exception is thrown,the purpose is to roll back the transaction
-        int n = 1 / 0;
+//        int n = 1 / 0;
         return insert;
     }
 }
